@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*.json
+!*_record.json
+reports/inbox/*.md
+!reports/inbox/README.md
