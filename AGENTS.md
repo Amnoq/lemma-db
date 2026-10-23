@@ -10,12 +10,12 @@ Read your issue briefing first — it names your identity, branch, scope,
 and done criteria. Then:
 
 - Write ONLY to your namespaced paths: your branch, your workdir, and
-  .
-- Never edit shared files (decision trees, ledgers, indexes, READMEs).
-  Propose node text inside your report; the aggregator assigns numbers.
-- Never push to . Never merge your own PR.
-- Prompt structure: .
-  Report format: .
+  reports/inbox/ISSUE-ACCT-AGENT.md (your report file).
+- Never edit shared files (indexes, README, build scripts on main).
+  Propose changes inside your report; the aggregator merges.
+- Never push to main. Never merge your own PR.
+- Prompt structure: .agents/AGENT_PROMPT_TEMPLATE.md
+  Report format: .agents/REPORT_TEMPLATE.md
 - Method: label every claim (exact theorem / computationally verified /
   conjectural / heuristic); uncertainty downgrades, never upgrades;
   compute live with rerunnable scripts; record dead ends fully.
